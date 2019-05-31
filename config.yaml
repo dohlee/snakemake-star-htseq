@@ -80,3 +80,18 @@ star_2_pass_paired:
     align_intron_min: 21
     align_intron_max: 0
     align_sj_overhang_min: 5
+htseq_count:
+    extra: ''
+    order: 'name'
+    max_reads_in_buffer: False
+    stranded: 'reverse'
+    minaqual: 10
+    type: False
+    idattr: False
+    additional_attr: False
+    mode: 'union'
+    nonunique: False
+    secondary_alignments: False
+    supplementary_alignments: False
+    samout: False
+    quiet: False
