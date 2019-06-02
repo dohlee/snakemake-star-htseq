@@ -49,8 +49,8 @@ It may be useful to have some rough estimates about the running time of the pipe
 
 | Rule | Input FASTQ size | Wallclock time (hms) |
 | --- |:---:| ---:|
-| star\_2\_pass\_single | 820M | TODO |
-| star\_2\_pass\_paired | 1.8G,1.7G | TODO |
-| htseq\_count | 820M | TODO |
-| htseq\_count | 1.8G,1.7G | TODO |
+| star\_2\_pass\_single | 820M | 0:11:39 |
+| star\_2\_pass\_paired | 1.8G,1.7G | 0:17:18 |
+| htseq\_count | 820M | 0:42:47 |
+| htseq\_count | 1.8G,1.7G | 1:34:51 |
 
