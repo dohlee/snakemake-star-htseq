@@ -15,6 +15,6 @@ install:
 
 before_script:
     - chmod 755 test.sh
-    - conda activate star-htseq
+    - source activate star-htseq
 
 script: ./test.sh
