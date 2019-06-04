@@ -10,4 +10,7 @@ before_install:
     - export PATH=/home/travis/miniconda2/bin:$PATH
     - conda update --yes conda
 
+before_script:
+    - chmod 755 test.sh
+
 script: ./test.sh
