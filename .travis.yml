@@ -16,5 +16,6 @@ install:
 before_script:
     - chmod 755 test.sh
     - source activate star-htseq
+    - snakemake -v
 
 script: ./test.sh
