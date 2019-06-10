@@ -1,6 +1,8 @@
 name: star-htseq
 channels:
+    - conda-forge
     - bioconda
+    - defaults
 dependencies:
     - snakemake
     - star
