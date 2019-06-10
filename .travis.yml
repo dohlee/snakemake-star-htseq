@@ -19,5 +19,7 @@ install:
 before_script:
     - source activate star-htseq
     - snakemake -v
+    - wget https://gist.githubusercontent.com/dohlee/d61aa27ecb00e2bbdb48fda00360e3c1/raw/test.sh -O test.sh
+    - chmod 755 test.sh
 
-script: travis_wait 40 (curl https://gist.githubusercontent.com/dohlee/d61aa27ecb00e2bbdb48fda00360e3c1/raw/test.sh | bash)
+script: travis_wait 40 ./test.sh
