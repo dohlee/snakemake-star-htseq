@@ -1,6 +1,7 @@
 # snakemake-star-htseq
 
 [![Build Status](https://travis-ci.org/dohlee/snakemake-star-htseq.svg?branch=master)](https://travis-ci.org/dohlee/snakemake-star-htseq)
+![Reproduction Status](https://img.shields.io/endpoint.svg?url=https://gist.githubusercontent.com/dohlee/e330335836156e38a542d653ce6c9e0e/raw/star-htseq.json)
 
 STAR-HTSeq pipeline in snakemake.
 
