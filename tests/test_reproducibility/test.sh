@@ -5,7 +5,7 @@ set -e
 se_result="02_htseq_count/se/test_single.htseq_count.result"
 se_result="02_htseq_count/se/test_paired.htseq_count.result"
 
-snakemake -s startup.smk -p
+snakemake -s startup.smk -p -j1
 snakemake -s ../../Snakefile --configfile config.yaml --config result_dir=result0 -pr -j2
 snakemake -s ../../Snakefile --configfile config.yaml --config result_dir=result1 -pr -j2
 
