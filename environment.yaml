@@ -4,8 +4,10 @@ channels:
     - bioconda
     - defaults
 dependencies:
-    - snakemake
     - star
     - samtools
     - htseq
 
+    - pip
+    - pip:
+        - snakemake==5.8.2
